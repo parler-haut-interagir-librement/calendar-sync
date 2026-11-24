@@ -1,6 +1,6 @@
 {
     "name": "phil/calendar-sync",
-    "description": "External calendar synchronization: busy times read from iCalendar feeds, CalDAV, Google Calendar and Microsoft Graph, and the site's events written to them, each service an adapter behind a port.",
+    "description": "Sync with external calendars: busy times read from iCalendar feeds, CalDAV, Google Calendar and Microsoft Graph, and your events written back to them.",
     "license": "MIT",
     "type": "library",
     "keywords": [
@@ -26,11 +26,11 @@
         "ext-libxml": "*",
         "ext-mbstring": "*",
         "phil/recurrence": "^0.1@dev",
-        "phil/safe-http": "^0.1@dev || ^0.2@dev",
+        "phil/safe-http": "^0.2@dev",
         "phil/url": "^0.1@dev",
         "symfony/clock": "^8.2",
         "symfony/http-client": "^8.2",
-        "symfony/http-client-contracts": "^3.6",
+        "symfony/http-client-contracts": "^3.8",
         "symfony/http-foundation": "^8.2"
     },
     "require-dev": {
